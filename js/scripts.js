@@ -32,6 +32,17 @@ var timeToWaitForLast = 100;
 */
 jQuery(document).ready(function($) {
 
+
+    var $menu = $('.nav-main'),
+    $menulink = $('.nav-main-link'),
+    $wrap = $('.offcanvas-wrap');
+  
+  $menulink.click(function() {
+    $menulink.toggleClass('active');
+    $wrap.toggleClass('active');
+    return false;
+	});
+
   
 
 }); /* end of as page load scripts */

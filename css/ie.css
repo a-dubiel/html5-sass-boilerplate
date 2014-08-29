@@ -63,12 +63,32 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
+.offcanvas-wrap.active {
+  left: 0; }
+
 /*********************
 HEADER STYLES
 *********************/
 /*********************
 NAVIGATION STYLES
 *********************/
+a.nav-main-link {
+  display: none; }
+
+.js .nav-main {
+  max-width: none;
+  position: static;
+  width: auto; }
+
+.nav-main ul {
+  margin: 0;
+  border: 0; }
+.nav-main li {
+  display: inline-block;
+  margin: 0 0.25em; }
+  .nav-main li a {
+    border: 0; }
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
