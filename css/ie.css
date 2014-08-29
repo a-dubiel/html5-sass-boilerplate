@@ -84,10 +84,7 @@ a.nav-main-link {
   margin: 0;
   border: 0; }
 .nav-main li {
-  display: inline-block;
-  margin: 0 0.25em; }
-  .nav-main li a {
-    border: 0; }
+  display: inline-block; }
 
 /*********************
 SIDEBARS & ASIDES

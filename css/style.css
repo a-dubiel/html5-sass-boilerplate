@@ -1732,8 +1732,7 @@ NAVIGATION STYLES
 *********************/
 a.nav-main-link {
   float: left;
-  display: block;
-  padding: 1em; }
+  display: block; }
 
 .nav-main {
   clear: both;
@@ -1750,9 +1749,7 @@ a.nav-main-link {
   margin: 0;
   padding: 0; }
 .nav-main li a {
-  display: block;
-  padding: 0.8em;
-  border-bottom: 1px solid #fff; }
+  display: block; }
 
 /*********************
 POSTS & CONTENT STYLES
@@ -1826,10 +1823,7 @@ FOOTER STYLES
     margin: 0;
     border: 0; }
   .nav-main li {
-    display: inline-block;
-    margin: 0 0.25em; }
-    .nav-main li a {
-      border: 0; }
+    display: inline-block; }
 
   /*********************
   SIDEBARS & ASIDES
